@@ -4,9 +4,6 @@ $(call inherit-product, device/motorola/targa/full_targa.mk)
 # Inherit some common liquid stuff.
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
-# Inherit some common CDMA stuff.
-$(call inherit-product, vendor/liquid/config/common_cdma.mk)
-
 #
 # Setup device specific product configuration.
 #
